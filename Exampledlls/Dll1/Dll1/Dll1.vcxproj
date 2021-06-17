@@ -131,13 +131,13 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\..\core\;$(SolutionDir)..\..\gen\;$(SolutionDir)..\..\godot_headers\;$(SolutionDir)..\..\;$(SolutionDIr)..\..\godot-cpp\;$(SolutionDIr)..\..\godot-cpp\core\;$(SolutionDIr)..\..\godot-cpp\gen\;$(SolutionDIr)..\..\godot-cpp\godot_headers\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\godot-cpp\include\;$(SolutionDir)..\..\godot-cpp\include\core\;$(SolutionDir)..\..\godot-cpp\include\gen\;$(SolutionDir)..\..\godot-cpp\godot_headers\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalLibraryDirectories>$(SolutionDir)..\..\godotlibs\;$(SolutionDir)..\..\godot-cpp\bin\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\..\godot-cpp\bin\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>libgodot-cpp.windows.debug.64.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -152,7 +152,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\..\core\;$(SolutionDir)..\..\gen\;$(SolutionDir)..\..\godot_headers\;$(SolutionDir)..\..\;$(SolutionDIr)..\..\godot-cpp\;$(SolutionDIr)..\..\godot-cpp\core\;$(SolutionDIr)..\..\godot-cpp\gen\;$(SolutionDIr)..\..\godot-cpp\godot_headers\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\godot-cpp\include\;$(SolutionDir)..\..\godot-cpp\include\core\;$(SolutionDir)..\..\godot-cpp\include\gen\;$(SolutionDir)..\..\godot-cpp\godot_headers\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -160,7 +160,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalLibraryDirectories>$(SolutionDir)..\..\godotlibs\;$(SolutionDir)..\..\godot-cpp\bin\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\..\godot-cpp\bin\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>libgodot-cpp.windows.release.64.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>

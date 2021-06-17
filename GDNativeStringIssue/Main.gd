@@ -69,7 +69,7 @@ func pass_to_next_dll(message) ->void:
 	
 	#lets try to pass the String from the godot engine to the other dll.  
 	#uncomment to test
-	emit_signal("pass_signal_message", classstring)
+	#emit_signal("pass_signal_message", classstring)
 	
 	
 
