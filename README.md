@@ -8,7 +8,7 @@ Tested on Godot version 3.3.2 stable
 	
 OS. Windows 10.0.19041 Build 19041 
 
-Note..I didn't set this up with scontruct sorry, I am not a master of it and haven't taken the time to learn it all yet. 
+Note..I didn't set this up with scontruct or makefile sorry, I am not a master of either, still learning as is with life.  
 
 Step 1: Build the godot-cpp bindings, follow the standard build for this, you will need to build the release and debug for the lib files for 
 the each build type expected by the Dll's.
