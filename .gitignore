@@ -13,6 +13,8 @@
 *.ipdb
 *.tlog
 *.exp
+*.iobj
+*.idb
 
 
 # Precompiled Headers
@@ -46,3 +48,4 @@
 *.db-wal
 *.opendb
 *.suo
+*.txt
