@@ -6,6 +6,14 @@
 *.lo
 *.o
 *.obj
+*.pdb
+*.log
+*.ilk
+*.recipe
+*.ipdb
+*.tlog
+*.exp
+
 
 # Precompiled Headers
 *.gch
@@ -30,3 +38,11 @@
 *.exe
 *.out
 *.app
+
+#visualstudio 
+*.ipch
+*.db
+*.db-shm
+*.db-wal
+*.opendb
+*.suo
