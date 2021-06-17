@@ -13,6 +13,8 @@
 *.ipdb
 *.tlog
 *.exp
+*.iobj
+*.idb
 
 
 # Precompiled Headers
