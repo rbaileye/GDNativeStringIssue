@@ -58,18 +58,22 @@ func pass_to_next_dll(message) ->void:
 	
 	#to test issues with class string, this assignment seems to be consistent. 
 	classstring = message
+	#Globalclass.globalString = message
 	
 	#this in cpp is method(String message) 
 	#uncomment to test 
 	#Dlltestclass2.pass_method(classstring)
+	#Dlltestclass2.pass_method(Globalclass.globalString)
 	
 	#this in cpp is method(const String& message) 
 	#uncomment to test
 	#Dlltestclass2.pass_method2(classstring)
+	#Dlltestclass2.pass_method2(Globalclass.globalString)
 	
 	#lets try to pass the String from the godot engine to the other dll.  
 	#uncomment to test
 	#emit_signal("pass_signal_message", classstring)
+	#emit_signal("pass_signal_message", Globalclass.globalString)
 	
 	
 

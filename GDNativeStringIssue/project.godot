@@ -22,6 +22,7 @@ icon="res://icon.png"
 
 Dlltestclass="*res://bin/dll1.gdns"
 Dlltestclass2="*res://bin/dll2.gdns"
+Globalclass="*res://globalclass.gd"
 
 [network]
 
