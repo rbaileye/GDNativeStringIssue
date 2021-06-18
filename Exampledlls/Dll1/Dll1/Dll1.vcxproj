@@ -131,7 +131,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\..\godot-cpp\include\;$(SolutionDir)..\..\godot-cpp\include\core\;$(SolutionDir)..\..\godot-cpp\include\gen\;$(SolutionDir)..\..\godot-cpp\godot_headers\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\godot-cpp\include\;$(SolutionDir)..\..\godot-cpp\include\core\;$(SolutionDir)..\..\godot-cpp\include\gen\;$(SolutionDir)..\..\godot-cpp\godot-headers\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -152,7 +152,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\..\godot-cpp\include\;$(SolutionDir)..\..\godot-cpp\include\core\;$(SolutionDir)..\..\godot-cpp\include\gen\;$(SolutionDir)..\..\godot-cpp\godot_headers\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\godot-cpp\include\;$(SolutionDir)..\..\godot-cpp\include\core\;$(SolutionDir)..\..\godot-cpp\include\gen\;$(SolutionDir)..\..\godot-cpp\godot-headers\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

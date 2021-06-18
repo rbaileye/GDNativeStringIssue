@@ -16,6 +16,7 @@ public:
 	
 	Node* _routingclassptr;
 	char messageowned[5000000] = { 0 };
+	wchar_t messageowned2[5000000] = { 0 };
 
 	static void _register_methods() 
 	{
@@ -48,6 +49,7 @@ public:
 		const char* cptr = temp.get_data();
 
 		memcpy(messageowned, cptr, mlength);
+
 		if (mlength < 10000)
 		{
 			//I dont expect to write this to output if the string is large just here for the smaller guys. 
